@@ -1,0 +1,71 @@
+.calculadora{
+    padding: 0;
+}
+.botao:hover{
+    background: black;
+}
+.botao-simbolo{
+    background: orangered;
+    padding: 20px;
+    color:white;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.botao{
+    background: snow;
+    padding: 20px;
+    color:darkgray;
+    border-radius: 10px;
+    font-size: large;
+}
+
+
+.grupo1{
+    padding: 4px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 8px;
+}
+.grupo2{
+    padding: 4px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+.grupo3{
+    padding: 4px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+.grupo4{
+    padding: 4px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+.grupo5{
+    padding: 4px;
+    margin: 4px;
+    display: grid;
+    grid-template-columns:3fr 1fr;
+    gap: 8px;
+}
+.visor{
+    background: black;
+    height: 90px;
+    border-radius: 20px;
+    padding: 0px 12px 0px 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: xx-large;
+}
